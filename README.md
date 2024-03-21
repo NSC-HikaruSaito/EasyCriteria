@@ -18,6 +18,8 @@ A little better readability and lower learning costs?
 - Java 11 or higher
 
 ## Sample
+[SampleRepository.java](https://github.com/NSC-HikaruSaito/EasyCriteria/blob/main/src/main/java/sample/repository/SampleRepository.java)
+
 ### Select Entity Class
 Before
 ```java
