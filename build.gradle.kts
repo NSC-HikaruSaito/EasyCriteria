@@ -23,3 +23,7 @@ dependencies {
     implementation("org.apache.commons:commons-collections4:4.4")
 
 }
+
+tasks.jar {
+    exclude("**/sample/**")
+}
