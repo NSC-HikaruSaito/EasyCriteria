@@ -14,6 +14,9 @@ However, I realized that everyone was familiar with SQL syntax (for example, hav
 Everyone in the department (about 30 people) started using this.  
 A little better readability and lower learning costs?
 
+※CiteriaAPIで出来ること全部に対応はしてないので、必要になったら追加していってます  
+Not everything that can be done with CiteriaAPI is supported, so we are adding more as needed.
+
 ## Prerequisites
 - Java 11 or higher
 
