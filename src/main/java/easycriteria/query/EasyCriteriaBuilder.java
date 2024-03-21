@@ -24,6 +24,10 @@ public class EasyCriteriaBuilder {
         return Select.select(this.entityManager.getCriteriaBuilder(), path);
     }
 
+    public <S> Select<S> buildSelectConstruct(Class<S> constructClass, CriteriaPath... path) {
+        return Select.construct(this.entityManager.getCriteriaBuilder(),constructClass, path);
+    }
+
     public Select<Tuple> buildTuple(CriteriaPath... tuplePath) {
         return Select.tuple(this.entityManager.getCriteriaBuilder(), tuplePath);
     }

@@ -25,7 +25,7 @@ public class Root<X> extends CriteriaPath {
         return new Root(PathType.MIN, attribute);
     }
 
-    public <Y> Root<Y> chain(Attribute<X, Y> attribute) {
+    public <Y> Root<Y> get(Attribute<X, Y> attribute) {
         Attribute[] newArray = new Attribute[this.arrayAttribute.length + 1];
         System.arraycopy(this.arrayAttribute, 0, newArray, 0, this.arrayAttribute.length);
         newArray[this.arrayAttribute.length] = attribute;
